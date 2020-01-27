@@ -54,7 +54,7 @@ export default class index extends Component {
                   })
               }}
           />
-            <Text style={{marginLeft:7}}> Student </Text>
+            <Text style={{marginLeft:7}}> {val} </Text>
           </View>
         ))}
 
