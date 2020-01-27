@@ -1,8 +1,13 @@
-##React Native Simple Radio Button##
+##React Native Simple Radio Button
 
-###Example###
-```<RadioButton 
+###Example
+
+```
+import RadioButton from 'react-native-simple-radio-button-input';
+
+<RadioButton 
     color={'red'}
     selected={true}
     onPress={()=>{})}
-/>```
+/>
+```
