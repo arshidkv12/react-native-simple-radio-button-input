@@ -3,8 +3,12 @@
 ### How to install ? ###
 
 `npm i react-native-simple-radio-button-input`
+
 or 
+
 `yarn add react-native-simple-radio-button-input`
+
+![React Native Radio Button](https://image.prntscr.com/image/ZJ7QPKERROiWQYXAwBOAmA.png)
 
 
 ### Example ###
