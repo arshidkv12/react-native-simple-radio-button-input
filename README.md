@@ -1,6 +1,6 @@
-##React Native Simple Radio Button##
+## React Native Simple Radio Button ##
 
-###Example###
+### Example ###
 
 ```
 import RadioButton from 'react-native-simple-radio-button-input';
