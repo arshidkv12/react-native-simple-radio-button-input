@@ -30,30 +30,39 @@ import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import RadioButton from 'react-native-simple-radio-button-input';
 
+const DATA = ['Student', 'Teacher'];
+
 export default class index extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        selected:false
+        selected:null
     };
   }
 
   render() {
     return (
-      <View>
-        <Text> Test </Text>
-        <RadioButton 
-            color={'blue'}
-            selected={this.state.selected}
-            onPress={()=>{this.setState({
-                    selected: !this.state.selected
-                })
-            }}
-        />
+      <View style={{flex:1, justifyContent:'center', padding:15}}>
+
+        {DATA.map(val=>(
+        <View style={{flexDirection:'row', marginBottom:15, alignItems:'center'}}>
+          <RadioButton 
+              color={'blue'}
+              selected={this.state.selected==val}
+              onPress={()=>{this.setState({
+                      selected: val
+                  })
+              }}
+          />
+            <Text style={{marginLeft:7}}> Student </Text>
+          </View>
+        ))}
+
       </View>
     );
   }
 }
+
 
 ```
 
